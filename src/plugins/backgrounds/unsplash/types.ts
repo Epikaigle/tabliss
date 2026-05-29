@@ -9,6 +9,7 @@ export interface Data {
   featured: boolean;
   paused?: boolean;
   search: string;
+  showCredits?: boolean;
   topics: string;
   timeout: number;
 }
@@ -33,6 +34,7 @@ export const defaultData: Data = {
   featured: false,
   paused: false,
   search: "",
+  showCredits: true,
   topics: "bo8jQKTaE0Y",
   timeout: 900,
 };

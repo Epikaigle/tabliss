@@ -79,7 +79,7 @@ const Unsplash: React.FC<Props> = ({
         style={{ backgroundImage: url ? `url(${url})` : undefined }}
       />
 
-      {item ? (
+      {item && data.showCredits !== false ? (
         <UnsplashCredit
           credit={item.credit}
           paused={data.paused ?? false}

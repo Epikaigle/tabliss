@@ -117,6 +117,15 @@ const UnsplashSettings: React.FC<Props> = ({ data = defaultData, setData }) => (
         />
       </label>
     )}
+
+    <label>
+      <input
+        type="checkbox"
+        checked={data.showCredits !== false}
+        onChange={(event) => setData({ ...data, showCredits: event.target.checked })}
+      />{" "}
+      Show photo credit and controls
+    </label>
   </div>
 );
 

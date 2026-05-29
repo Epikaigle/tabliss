@@ -85,6 +85,14 @@ const config = {
   stats: {
     warnings: false,
   },
+  devServer: {
+    client: {
+      overlay: {
+        warnings: false,
+        errors: true,
+      },
+    },
+  },
 };
 
 if (isProduction) {
