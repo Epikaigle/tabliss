@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Tabliss",
-  "short_name": "Tabliss",
+  "name": "Tabliss Fork",
+  "short_name": "Tabliss Fork",
   "version": "2.6.0",
-  "description": "A beautiful New Tab page with many customisable backgrounds and widgets that does not require any permissions.",
+  "description": "A beautiful New Tab page with customisable backgrounds and widgets. Community-maintained fork of Tabliss.",
   "applications": {
     "gecko": {
-      "id": "extension@tabliss.io",
+      "id": "tabliss-fork@epikaigle.io",
       "strict_min_version": "54.0"
     }
   },
